@@ -1,0 +1,147 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/fruit.jpg');
+    height: 600px;
+
+}
+
+.left {
+    position: absolute;
+    left: 5px;
+    top: -10px;
+    display: inline-block;
+    display: inline-block;
+    /*border: 2px solid rgb(201, 153, 70);*/
+
+}
+
+.left img {
+    width: 200px;
+    filter: invert(80%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 25px;
+
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    top: 18px;
+    margin: 12px auto;
+    /*border: 2px solid rgb(7, 24, 146); */
+
+}
+
+.right {
+    background-color: none;
+    position: absolute;
+    right: 33px;
+    top: 34px;
+    display: inline-block;
+   /* border: 2px solid rgb(250, 255, 252);*/
+
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.navbar li a {
+    font: bold;
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover {
+    color: black;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(6, 6, 6);
+
+}
+
+.btn {
+    font: bold;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(255 255 255 / 0%);
+     margin: 0px 9px;
+    color: rgb(255, 255, 255);
+    padding: 7px 15px;
+    background-color: none;
+    border-radius: 9px solid white;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: rgb(2, 2, 2);
+}
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    margin: 110px 346px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 2px;
+
+}
+.form-group input{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    margin:8px auto;
+    width: 448px;
+    font-size: 15px;
+    padding:5px;
+    border-radius: 8px;
+    border:2px solid black;
+    margin: 3px auto;
+}
+.container h1{
+    text-align: center;
+    color: white;
+}
+.container button{
+    display: block;
+    width: 459px;
+    margin: auto;
+    border-radius: 8px;
+    border:2px solid black;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 500px) and (orientation :     portrait){
+
+    body {
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Oswald', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/fruit.jpg');
+        height: 600px;
+    
+    }
+    
+}
